@@ -1,3 +1,79 @@
+# Twitter User Data Analysis and Interest-based Matching Tool
+
+## Overview
+This project aims to analyze Twitter user data stored in local JSON files to identify and match users with shared interests. Leveraging graph theory and custom data structures, it organizes and visualizes data efficiently, providing insights into user interactions on Twitter.
+
+## Project Features
+- Processing Twitter user data from local JSON files
+- Using hash tables and search algorithms to match users based on shared interests
+- Employing networkx and matplotlib for visualizing user relationships and networks
+- Featuring a GUI built with Tkinter for easier user interaction
+- Creating interest-based user trees and optimizing connections with minimum spanning trees
+- Using text analysis and natural language processing (NLP) techniques to analyze interests
+
+## Getting Started
+
+### Prerequisites
+- Python 3.6 or newer
+- Required Python libraries:
+  - `faker`: For generating new test users
+  - `tqdm`: For progress bar display
+  - `networkx`: For graph theory and network visualization
+  - `matplotlib`: For visualization of graphs
+  - `nltk`: For natural language processing and text analysis
+
+### Installation
+To install the necessary Python libraries, use the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Application
+To start the application, run the main.py script:
+```bash
+python main.py
+```
+
+## Data Structures
+The core data structures used in the project:
+- **Hash Map**: Provides fast access between users and interests
+- **Linked Lists**: Used for dynamic data storage
+- **Graph**: Used to represent relationships between users
+- **Stack and Queue**: Used for graph traversal algorithms
+
+## User Interface
+The application comes with a Tkinter interface offering the following functions:
+- User search and graph display
+- Visualization of user networks by interests
+- Graph visualization of all users
+- Analyzing and visualizing user interests
+- Finding interest-based connections using BFS (Breadth-First Search) algorithm
+
+## Data Preparation
+Ensure your Twitter user data is in JSON format, including necessary attributes for analysis and matching algorithms to function properly. If needed, you can use DataGenerator.py to create new test users.
+
+## Usage Example
+1. Generate or load user data through the GUI
+2. Explore visualized user networks and relationships
+3. Analyze and match users based on shared interests
+4. Visualize connections between interests
+5. Create a minimum spanning tree for users
+
+## Algorithm Explanations
+- **DFS (Depth-First Search)**: Used for text analysis and interest extraction
+- **BFS (Breadth-First Search)**: Used to explore user connections
+- **Minimum Spanning Tree**: Used to find optimal connections between users
+
+## Dependencies
+- Python 3.6 or newer
+- Required Python libraries: `faker`, `tqdm`, `networkx`, `matplotlib`, `nltk`
+
+## Contributors
+- Yunus Hanifi Öztürk
+- Eyüp Ensar Kara
+
+---
+
 # Twitter Kullanıcı Verileri Analizi ve İlgi Alanı Tabanlı Eşleştirme Aracı
 
 ## Genel Bakış
