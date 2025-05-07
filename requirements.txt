@@ -1,0 +1,5 @@
+faker==8.1.1
+tqdm==4.59.0
+networkx==2.5
+matplotlib==3.3.4
+nltk==3.5
