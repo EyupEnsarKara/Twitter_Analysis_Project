@@ -2,7 +2,7 @@
 
 ## 📋 Proje Bilgisi
 
-Bu proje, **Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü Programlama Lab. I** dersi kapsamında **2023-2024 Güz dönemi** için hazırlanmıştır (Proje II).
+Bu proje, **Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü Programlama Lab. I** dersi kapsamında **2023-2024 Güz dönemi** için hazırlanmıştır (Proje III).
 
 ## 📋 Proje Hakkında
 
